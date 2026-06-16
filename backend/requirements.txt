@@ -3,16 +3,7 @@ uvicorn[standard]==0.29.0
 python-multipart==0.0.9
 python-dotenv==1.0.1
 
-# LangGraph / LangChain — no hard pins, use what's in the env
-langgraph>=0.3.5
-langgraph-checkpoint-postgres>=2.0.10
 langchain-core>=0.3.0
 langchain-groq>=0.3.0
-langchain-huggingface>=0.3.0
-
-# DB
-psycopg[binary,pool]
-sentence-transformers
-
-# pydantic
+langgraph>=0.3.5
 pydantic>=2.0

@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://YOUR-HF-SPACE.hf.space/$1" }
+    { "source": "/api/(.*)", "destination": "https://phantompainx21-my-council-api.hf.space/$1" }
   ]
 }
